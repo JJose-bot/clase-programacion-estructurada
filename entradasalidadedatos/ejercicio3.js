@@ -16,7 +16,7 @@ rl.question("Escribe el precio unitario del producto: ", (precio) => {
         const cantidadTotal = parseInt(cantidad);
         const costoTotal = precioUnitario * cantidadTotal;
         
-        console.log(`Cantidad de productos comprados: ${cantidadTotal} \nCosto del producto: ${precio} \nTotal a pagar: ${costoTotal}`)
+        console.log(`Cantidad de productos comprados: ${cantidadTotal}\nCosto del producto: ${precio}\nTotal a pagar: ${costoTotal}`)
 
         rl.close();
     })
