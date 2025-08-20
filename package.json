@@ -1,0 +1,21 @@
+{
+  "name": "programacion-estructurada",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JJose-bot/clase-programacion-estructurada.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JJose-bot/clase-programacion-estructurada/issues"
+  },
+  "homepage": "https://github.com/JJose-bot/clase-programacion-estructurada#readme"
+}
