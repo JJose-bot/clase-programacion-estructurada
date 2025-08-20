@@ -13,5 +13,6 @@ rl.question("Ingrese la cantidad de metros a convertir en centímetros: ", (metr
     const convertir = m * 100;
 
     console.log(`${metros} metros son ${convertir} centímetros`);
+    
     rl.close();
 })

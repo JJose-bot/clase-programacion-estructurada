@@ -15,6 +15,7 @@ rl.question("Escribe el ancho del rectángulo: ", (ancho) => {
         const perimetro = 2 * (anchoF + alturaF)
 
         console.log(`El perimetro del rectángulo es ${perimetro}`);
+        
         rl.close();
     })
 })

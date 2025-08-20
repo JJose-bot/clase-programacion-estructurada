@@ -15,5 +15,6 @@ rl.question("Ingrese el precio del producto: ", (precio) => {
     const total = precioF + iva;
 
     console.log(`Precio del producto: $${precio}\nIVA: $${iva}\nPrecio total: $${total}`)
+    
     rl.close();
 })
