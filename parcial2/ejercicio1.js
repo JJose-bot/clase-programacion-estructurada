@@ -16,6 +16,6 @@ function ordenarFrase (cadena){
 
 rl.question("Ingrese el texto: ", (texto) => {
     let ordenar = ordenarFrase(texto);
-    console.log("Cadena ordenada: ", ordenar);
+    console.log("Cadena ordenada:", ordenar);
     rl.close();
 });
