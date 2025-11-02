@@ -15,12 +15,13 @@ function calcularDescuento(precioProducto, descuento){
     let desc = (precioProducto * descuento) / 100;
 
     let precioFinal = precioProducto - desc;
-    console.log(`El descuento del producto obtenido es de $${desc} \nTotal a pagar es de $${precioFinal}`);
+    return precioFinal;
 }
 
 rl.question("Ingrese el precio del producto: ", (precio) => {
     rl.question("Ingrese el porcentaje del descuento. Ej 20 para el 20%: ", (porcentaje) => {
-        calcularDescuento(precio, porcentaje);
+        let resultado = calcularDescuento(precio, porcentaje);
+        console.log(`El precio final es de $${resultado}`);
         rl.close();
     })
 })

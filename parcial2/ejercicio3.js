@@ -18,7 +18,7 @@ function sumar (n1, n2, n3){
     return sum;
 }
 
-rl.question("Ingrese el primer producto: ", (num1) => {
+rl.question("Ingrese el precio del primer producto: ", (num1) => {
     rl.question("Ingrese el precio del segundo producto: ", (num2) => {
         rl.question("Ingrese el precio del tercer producto: ", (num3) => {
             console.log(`La suma de los tres productos es: ${sumar(num1, num2, num3)}`);

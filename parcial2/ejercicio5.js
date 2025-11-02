@@ -18,13 +18,14 @@ function calcularSalario (salarioBase, horasExtra, valorHora){
     let pagoExtra = horasExtra * (valorHora * 1.5);
     const salarioTotal = salarioBase + pagoExtra;
     
-    console.log(`El salario total es de $${salarioTotal}`);
+    return salarioTotal;
 }
 
 rl.question("Ingrese el salario base: " , (salario) => {
     rl.question("Ingrese el número de horas extra trabajadas: ", (horas) => {
         rl.question("Ingrese el valor de una hora de trabajo normal: ", (valor) => {
-            calcularSalario(salario, horas, valor);
+            let salarioFinal = calcularSalario(salario, horas, valor);
+            console.log(`El salario total es de $${salarioFinal}`);
             rl.close();
         })
     }) 
